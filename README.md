@@ -23,7 +23,7 @@ Works for any of the methods existing in cl_abap_unit_assert.
 
 ## Usage
 
-Inherit it in your your test classes.
+Inherit it from your test classes.
 
 ```
 class ltc_your_test_class definition
