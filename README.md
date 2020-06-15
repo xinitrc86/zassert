@@ -19,13 +19,14 @@ To:
         msg = "C"
     ).
 ```
+Works for any of the methods existing in cl_abap_unit_assert.
 
 ## Usage
 
 Inherit it in your your test classes.
 
 ```
-class ltc_aunit_result_adapter definition
+class ltc_your_test_class definition
   for testing
   duration short
   risk level harmless
